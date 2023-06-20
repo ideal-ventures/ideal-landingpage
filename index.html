@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link href="./dist/output.css" rel="stylesheet">
+    <title>Ideal</title>
+</head>
+
+<body class="bg-[#1A1D22] overflow-x-hidden"
+    style="background-image: url(imgs/bg.png); background-size: 400%; background-position: 10% 50%;   background-attachment: fixed;
+    ">
+    <div class="w-full h-screen fixed z-0">
+        <div class="h-60 w-60 absolute bottom-10 -right-[30%] lg:left-[15%] animate-moving-circles" style="background-image: url(imgs/ellipse_small.svg); background-repeat: no-repeat;"></div>
+        <div class="h-[32rem] w-[32rem] absolute -top-[20%] lg:-top-10 -left-40 animate-moving-circles" style="background-image: url(imgs/ellipse_big_full.svg); background-repeat: no-repeat;"></div>
+        <div class="h-60 w-60 hidden md:block absolute -top-20 right-[15%] animate-moving-circles" style="background-image: url(imgs/ellipse_small.svg); background-repeat: no-repeat;"></div>
+        <div class="h-[34rem] w-96 hidden md:block absolute -right-24 bottom-20 animate-moving-circles" style="background-image: url(imgs/ellipse_big_full.svg); background-repeat: no-repeat;"></div>
+        </div>
+    <div class="w-full h-screen overflow-x-hidden flex flex-col justify-center items-center relative background z-10">
+        
+        <img src="imgs/ideal_logo.png" class="h-24 lg:h-44" />
+        <div class="absolute bottom-20">
+            <a href="#brands"><svg width="24" height="63" viewBox="0 0 24 63" fill="none"
+                    xmlns="http://www.w3.org/2000/svg" class="animate-bounce">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M22.6373 52.0694L12.7732 61.9335C12.1679 62.5388 11.1865 62.5388 10.5812 61.9335L0.717013 52.0694C0.111701 51.464 0.111701 50.4826 0.717013 49.8773C1.32233 49.272 2.30373 49.272 2.90905 49.8773L10.1272 57.0955L10.1272 30.225C10.1272 29.3689 10.8211 28.675 11.6772 28.675C12.5332 28.675 13.2272 29.3689 13.2272 30.225L13.2272 57.0955L20.4453 49.8773C21.0506 49.272 22.032 49.272 22.6373 49.8773C23.2426 50.4826 23.2426 51.4641 22.6373 52.0694Z"
+                        fill="#3077FF" />
+                </svg></a>
+        </div>
+    </div><a id="brands"></a>
+    <div class="lg:px-24 2xl:px-52 w-full relative z-20">
+        <div class="w-full min-h-[688px] py-16 px-8 lg:px-26 xl:px-40 flex flex-col justify-center">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-16">
+                <div class="flex flex-col items-center  rounded-2xl bg-[#232323] p-16">
+                    <img src="imgs/1260.png" class="h-20 pb-8">
+                    <p class="text-[#A1ABBD] text-center  mb-6">1260 is a digital agency specializing in many digital
+                        practices, helping its customers have success online. From SEO and paid ads, to web design and
+                        development.</p>
+
+                    <p class="text-white pb-2">2020</p>
+                    <p class="text-[#A1ABBD] pb-2">Copenhagen</p>
+                    <p class="text-[#A1ABBD]">32 employees</p>
+                </div>
+                <div class="flex flex-col items-center rounded-2xl bg-[#232323] p-16">
+                    <img src="imgs/bigum.png" class="h-20 pb-8">
+                    <p class="text-[#A1ABBD] text-center mb-6">Bigum&Co has for the past 10 years taught people in and
+                        out of jobs the basics of digital marketing in order to give them the tools to succeed.</p>
+
+                    <p class="text-white pb-2">2013</p>
+                    <p class="text-[#A1ABBD] pb-2">Copenhagen</p>
+                    <p class="text-[#A1ABBD]">8 employees</p>
+                </div>
+                
+                <div class="flex flex-col items-center rounded-2xl bg-[#232323] p-16">
+                    <img src="imgs/detectly.png" class="h-16 pb-8">
+                    <p class="text-[#A1ABBD] text-center mb-6">Detectly.io will keep track of your websites crucial
+                        functions and let you know the minute something is out of order, so you can fix it, before your
+                        customers notice.</p>
+                    <p class="text-white pb-2">2023</p>
+                    <p class="text-[#A1ABBD] pb-2">Copenhagen</p>
+                    <p class="text-[#A1ABBD]">2 employees</p>
+                </div>
+                <div class="flex flex-col items-center rounded-2xl bg-[#232323] p-16">
+                    <img src="imgs/hba.png" class="h-20 pb-8">
+                    <p class="text-[#A1ABBD] text-center mb-6">HBA Business School help business leaders reach thier
+                        highest potential, by giving them both the knowledge and the practical skills for success.</p>
+
+                    <p class="text-white pb-2">2023</p>
+                    <p class="text-[#A1ABBD] pb-2">Copenhagen</p>
+                    <p class="text-[#A1ABBD]">5 employees</p>
+                </div>
+            </div>
+        </div>
+
+
+<!-- 
+        <div
+            class="w-full min-h-[688px] rounded-2xl bg-[#232323] py-16 px-8 lg:px-26 xl:px-40 flex flex-col justify-center">
+            <div class="grid gap-24 lg:gap-20 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+                <div class="flex flex-col items-center">
+                    <img src="imgs/detectly.png" class="h-16 pb-8">
+                    <p class="text-[#A1ABBD] text-center mb-6">Detectly.io will keep track of your websites crucial
+                        functions and let you know the minute something is out of order, so you can fix it, before your
+                        customers notice.</p>
+
+                    <p class="text-white pb-2">2023</p>
+                    <p class="text-[#A1ABBD] pb-2">Copenhagen</p>
+                    <p class="text-[#A1ABBD]">2 employees</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="imgs/bigum.png" class="h-20 pb-8">
+                    <p class="text-[#A1ABBD] text-center mb-6">Bigum&Co has for the past 10 years taught people in and
+                        out of jobs the basics of digital marketing in order to give them the tools to succeed.</p>
+
+                    <p class="text-white pb-2">2013</p>
+                    <p class="text-[#A1ABBD] pb-2">Copenhagen</p>
+                    <p class="text-[#A1ABBD]">8 employees</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="imgs/1260.png" class="h-20 pb-8">
+                    <p class="text-[#A1ABBD] text-center  mb-6">1260 is a digital agency specializing in many digital
+                        practices, helping its customers have success online. From SEO and paid ads, to web design and
+                        development.</p>
+
+                    <p class="text-white pb-2">2020</p>
+                    <p class="text-[#A1ABBD] pb-2">Copenhagen</p>
+                    <p class="text-[#A1ABBD]">32 employees</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="imgs/hba.png" class="h-20 pb-8">
+                    <p class="text-[#A1ABBD] text-center mb-6">HBA Business School help business leaders reach thier
+                        highest potential, by giving them both the knowledge and the practical skills for success.</p>
+
+                    <p class="text-white pb-2">2023</p>
+                    <p class="text-[#A1ABBD] pb-2">Copenhagen</p>
+                    <p class="text-[#A1ABBD]">5 employees</p>
+                </div>
+            </div>
+        </div> -->
+    </div>
+    <div class="w-full h-[1000px] flex justify-center items-center relative z-30">
+        <div class="max-w-[600px] p-8">
+            <div class="flex flex-col items-center mb-16">
+                <p class="text-[#3077FF] mb-4 text-center">Let's get in contact</p>
+                <p class="text-2xl text-white text-center">We are here for you.</p>
+                <p class="text-2xl text-white text-center">Just let us know what you need.</p>
+            </div>
+            <form action="https://formspree.io/f/{form_id}" method="post" class="">
+                <div class="grid md:grid-cols-2 gap-3">
+                    <input name="First name" id="email" type="email" placeholder="First name"
+                        class="rounded-xl py-3 px-4  text-sm bg-[#232323] text-white"><input name="Last name" id="email"
+                        type="email" placeholder="Last name"
+                        class="rounded-xl py-3 px-4 text-sm bg-[#232323] text-white">
+                    <input name="First name" id="email" type="email" placeholder="E-mail"
+                        class="rounded-xl py-3 px-4 text-sm bg-[#232323] text-white"><input name="Last name" id="email"
+                        type="email" placeholder="Company" class="rounded-xl py-3 px-4 text-sm bg-[#232323] text-white">
+                </div>
+                <div class="my-3"><textarea name="First name" rows="6" id="email" type="email" placeholder="E-mail"
+                        class="w-full rounded-xl py-3 px-4 text-sm bg-[#232323] text-white"></textarea></div>
+                <div class="flex items-start mb-6"><input type="checkbox" class="rounded mt-1 bg-red-100"><label
+                        class="text-[#A1ABBD] ml-2 text-sm">By agreeing to this formula, you accept the terms and
+                        conditions stated by Ideal Ventures. Read them here.</label></div>
+                <button type="submit" class="bg-[#3077FF] text-white px-6 py-4 rounded-xl w-full md:w-fit">Send
+                    message</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
